@@ -1,0 +1,46 @@
+:root{--bg:#FFF6DD;--ink:#1F2A5C;--card:#fff;--cell:#EAF0FF;--line:#1F2A5C;--yel:#FFC93C;--mint:#3DDC97;--red:#FF5A5F;--blue:#4A6CF7}
+@media (prefers-color-scheme:dark){:root{--bg:#161B3A;--ink:#FFF6DD;--card:#232A55;--cell:#2E3768;--line:#FFF6DD}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Fredoka','Trebuchet MS',system-ui,sans-serif;font-size:17px;line-height:1.45}
+main{max-width:620px;margin:0 auto;padding:16px}
+h1{font-size:28px;margin:4px 0 10px}h2{font-size:20px;margin:14px 0 8px}
+.panel{background:var(--card);border:3px solid var(--line);border-radius:18px;padding:14px;margin-bottom:14px;box-shadow:4px 4px 0 var(--line)}
+button{font:inherit;color:inherit;cursor:pointer}
+.btn{font-weight:700;border:3px solid var(--line);background:var(--card);border-radius:14px;padding:9px 14px}
+.btn.pri{background:var(--blue);color:#fff;box-shadow:3px 3px 0 var(--line);font-size:19px;padding:10px 20px}
+button:disabled{opacity:.5;cursor:not-allowed}
+label{display:block;margin-top:8px}
+input{font:inherit;width:100%;padding:10px;border:3px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);margin:4px 0 6px}
+.avs,.row,.prog{display:flex;flex-wrap:wrap;gap:8px}
+.avs{margin:8px 0}
+.av{font-size:30px;border:3px solid var(--line);background:var(--card);border-radius:14px;width:54px;height:54px}.av.on{background:var(--yel)}
+.err{color:var(--red);font-weight:600;min-height:24px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.lvgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.lv{border:3px solid var(--line);border-radius:12px;background:var(--cell);padding:6px 0;text-align:center;font-weight:700}
+.lv small{display:block;font-size:12px;font-weight:400;min-height:18px}.lv.ok{background:var(--mint);color:#1F2A5C}
+.lb{list-style:none;margin:8px 0 0;padding:0}.lb li{display:flex;justify-content:space-between;padding:6px 4px;border-bottom:2px dashed var(--line)}
+.lb li.me{background:var(--yel);color:#1F2A5C;border-radius:8px}
+.gridwrap{display:grid;gap:6px;max-width:400px;margin:0 auto}
+.hd{display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;opacity:.7}
+.cell{aspect-ratio:1;background:var(--cell);border:3px solid var(--line);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:min(42px,calc(30vw / var(--n)));position:relative}
+.cell small{position:absolute;left:4px;top:1px;font-size:9px;opacity:.55}
+.cell.boom{background:var(--red);animation:shake .4s}.cell.win{background:var(--mint)}
+.robot{display:flex;align-items:center}.robot .ar{font-size:.55em}
+@keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.status{text-align:center;font-weight:600;margin-top:10px}
+.blk{font-weight:600;border:3px solid var(--line);border-radius:10px;padding:8px 10px;color:#1F2A5C;white-space:nowrap}
+.F{background:var(--mint)}.R{background:var(--yel)}.L{background:#9DB4FF}
+.prog{min-height:56px;padding:6px;border:3px dashed var(--line);border-radius:12px;margin:8px 0}
+.prog .n{font-size:11px;opacity:.6;margin-right:4px}.prog .empty{opacity:.55;padding:0 6px;align-self:center}
+.prog .now{outline:4px solid var(--blue);outline-offset:2px}.prog .bad{background:var(--red);animation:shake .4s}
+.gm{display:flex;gap:10px}.gm .ic{font-size:34px;line-height:1}
+button:focus-visible,input:focus-visible{outline:4px solid var(--blue);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.cell.boom,.prog .bad{animation:none}}
+.pop{position:fixed;inset:0;z-index:50;background:rgba(20,25,60,.65);display:flex;align-items:center;justify-content:center;overflow:hidden;padding:16px}
+.petal{position:absolute;top:-60px;animation-name:fall;animation-timing-function:linear;animation-iteration-count:infinite;pointer-events:none}
+@keyframes fall{to{transform:translateY(115vh) rotate(360deg)}}
+.popcard{position:relative;background:var(--card);border:3px solid var(--line);border-radius:22px;box-shadow:6px 6px 0 var(--line);padding:22px;text-align:center;max-width:380px;animation:popin .45s cubic-bezier(.3,1.5,.5,1)}
+.popcard h2{font-size:28px;margin:6px 0}.big{font-size:40px;letter-spacing:4px}
+@keyframes popin{from{transform:scale(.3);opacity:0}}
+@media (prefers-reduced-motion:reduce){.petal{animation:none;top:20%}.popcard{animation:none}}
