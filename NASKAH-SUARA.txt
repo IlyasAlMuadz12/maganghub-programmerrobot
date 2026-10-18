@@ -1,0 +1,40 @@
+NASKAH REKAMAN SUARA TUTORIAL (suara laki-laki, gaya guru menjelaskan ke murid SD)
+Cara: rekam 12 voice note (WhatsApp boleh) sesuai kalimat di bawah, bicara santai dan ramah, tidak buru-buru.
+Beri nama file 01 sampai 12 (mis. 01.mp4, 02.mp4 ... atau .mp3/.m4a), taruh di folder public/voice/. Satu file per slide, sekitar 8-15 detik.
+Tanpa file rekaman, tutorial memakai suara bawaan perangkat (tetap terdengar seperti mesin).
+
+01  [Halo, Kapten Programmer!]
+    Halo adik-adik, selamat datang! Hari ini kita belajar membuat robot berjalan sampai ke bendera finish. Caranya gampang, kita susun kartu perintah. Yuk, kita mulai!
+
+02  [Kenali papan 6×6]
+    Coba lihat papan permainannya. Ini robotnya, panahnya menunjukkan ke mana robot menghadap. Ini bendera finish, tujuan kita. Nah, hati-hati ya, tanda silang merah itu bahaya. Jangan sampai terinjak!
+
+03  [MAJU]
+    Kartu pertama, maju. Robot melangkah satu kotak ke depan. Kalau ada tiga kartu maju, berarti robot melangkah tiga kali. Gampang, kan?
+
+04  [MUNDUR]
+    Kartu mundur. Robot melangkah satu kotak ke belakang. Perhatikan ya, badan robot tetap menghadap ke depan, tidak berputar.
+
+05  [BELOK KANAN]
+    Kartu belok kanan. Robot hanya memutar badan ke kanan, tidak pindah kotak. Setelah itu, baru kita suruh maju.
+
+06  [BELOK KIRI]
+    Kalau belok kiri, robot memutar badan ke kiri. Sama seperti tadi, robot tidak pindah kotak. Setelah itu, baru maju.
+
+07  [BALIK ARAH]
+    Kartu balik arah. Robot memutar badan setengah putaran, jadi menghadap ke belakang. Setelah itu, baru maju.
+
+08  [AMBIL kunci 🔑]
+    Sekarang kartu ambil. Robot harus berdiri tepat di kotak kunci, lalu pakai kartu ambil. Nah, lihat, kuncinya pindah ke robot!
+
+09  [PINTU 🚪 butuh kunci]
+    Ini pintu. Kalau robot belum punya kunci, pintunya terkunci dan robot tidak bisa lewat. Tapi kalau sudah mengambil kunci, pintu terbuka dan robot bisa lanjut ke finish!
+
+10  [ULANGI]
+    Kartu ulangi. Daripada menulis kartu maju tiga kali, cukup taruh satu kartu maju di dalam ulangi, lalu atur angkanya jadi tiga. Kartunya jadi lebih sedikit. Hebat, kan?
+
+11  [Waktu & bintang]
+    Perhatikan waktunya ya. Waktu mulai berjalan saat level dibuka, dan berhenti saat robot sampai di finish. Makin cepat dan makin sedikit kartu, makin banyak bintang yang kamu dapat!
+
+12  [Siap main!]
+    Nah, kamu sudah siap! Lihat papannya, susun kartunya, lalu tekan jalankan. Kalau salah, tidak apa-apa, coba lagi ya. Semangat, Kapten!
