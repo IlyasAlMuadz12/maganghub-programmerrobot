@@ -39,7 +39,7 @@ export default function Admin(){
 
   if(!ok)return(<div className="adm"><section className="panel"><h2 style={{marginTop:0}}>{lupa?'🔓 Lupa Password Admin':'🔧 Login Admin'}</h2>
     {lupa?<>
-      <p style={{margin:'0 0 6px',opacity:.85}}>Masukkan kode pemulihan dari file <code>config.php</code> (baris <code>RECOVERY_CODE</code>) di folder <code>coderbot-api</code>. Atau, lihat/ubah langsung kolom <code>password</code> di tabel <code>admins</code> lewat HeidiSQL.</p>
+      <p style={{margin:'0 0 6px',opacity:.85}}>Masukkan kode pemulihan dari file <code>config.php</code> (baris <code>RECOVERY_CODE</code>) di folder <code>programmer dan robot</code>. Atau, lihat/ubah langsung kolom <code>password</code> di tabel <code>admins</code> lewat HeidiSQL.</p>
       <label>Username admin<input value={u} onChange={e=>setU(e.target.value)}/></label>
       <label>Kode pemulihan<input type="password" value={rc} onChange={e=>setRc(e.target.value)} autoComplete="off"/></label>
       <label>Password baru (min. 6 karakter)<input type="password" value={n1} onChange={e=>setN1(e.target.value)} autoComplete="new-password"/></label>
