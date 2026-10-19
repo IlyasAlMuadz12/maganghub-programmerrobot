@@ -78,10 +78,10 @@ Frontend bisa di-deploy ke Vercel (Framework: Vite, Build: `npm run build`, Outp
 
 ## 👤 Pembuat
 
-Dibuat oleh **MRikoKuswoyo** ([github.com/MRikoKuswoyo](https://github.com/MRikoKuswoyo)).
+Dibuat oleh **IlyasAlMuadz** ([github.com/MRikoKuswoyo](https://github.com/IlyasAlMuadz12)).
 
 ## ©️ Hak Cipta
 
-Copyright © 2026 **MRikoKuswoyo**. Hak cipta dilindungi.
+Copyright © 2026 **IlyasAlMuadz12**. Hak cipta dilindungi.
 
 Seluruh kode, desain, tampilan, level, dan rekaman suara dalam repositori ini adalah karya MRikoKuswoyo. Dilarang menyalin, memperbanyak, memodifikasi, menjual, atau mendistribusikan ulang sebagian maupun seluruhnya tanpa izin tertulis dari pembuat. Penggunaan untuk pembelajaran pribadi di kelas diperbolehkan selama mencantumkan nama pembuat.
